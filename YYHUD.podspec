@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YYHUD'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of YYHUD.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Arno/YYHUD.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
+
 
   s.source_files = 'YYHUD/Classes/**/*'
   
@@ -38,5 +39,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency       'MBProgressHUD'
+  s.dependency       'DGActivityIndicatorView'
+
 end

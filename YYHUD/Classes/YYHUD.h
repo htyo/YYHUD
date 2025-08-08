@@ -6,10 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MBProgressHUD.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
-#import <MBProgressHUD.h>
 
 @interface YYHUD : NSObject <MBProgressHUDDelegate>
 + (void)showActivityHUD;
