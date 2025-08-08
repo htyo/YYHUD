@@ -5,13 +5,14 @@
 //  Created by 云庭 on 2025/8/8.
 //
 
-#import "DGActivityIndicatorView.h"
+#import <DGActivityIndicatorView/DGActivityIndicatorView.h>
+#import <MBProgressHUD/MBProgressHUD.h>
 #import "YYHUD.h"
 
 
 #define HUDAutoHideTimeInterval 2.5
 
-@interface YYHUD ()
+@interface YYHUD () <MBProgressHUDDelegate>
 @property (strong, nonatomic) MBProgressHUD * activityHUD;
 @property (strong, nonatomic) MBProgressHUD * messageHUD;
 @end

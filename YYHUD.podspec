@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'YYHUD'
   s.version          = '1.0.1'
-  s.summary          = 'A short description of YYHUD.'
+  s.summary = "A lightweight and customizable HUD view for iOS applications."
+
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
