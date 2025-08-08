@@ -1,0 +1,6 @@
+framework module YYHUD {
+  umbrella header "YYHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

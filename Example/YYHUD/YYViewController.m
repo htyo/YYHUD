@@ -7,6 +7,7 @@
 //
 
 #import "YYViewController.h"
+#import <YYHUD.h>
 
 @interface YYViewController ()
 
