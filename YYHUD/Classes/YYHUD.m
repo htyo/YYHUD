@@ -5,8 +5,6 @@
 //  Created by 云庭 on 2025/8/8.
 //
 
-#import <DGActivityIndicatorView/DGActivityIndicatorView.h>
-#import <MBProgressHUD/MBProgressHUD.h>
 #import "YYHUD.h"
 
 
@@ -15,6 +13,9 @@
 @interface YYHUD () <MBProgressHUDDelegate>
 @property (strong, nonatomic) MBProgressHUD * activityHUD;
 @property (strong, nonatomic) MBProgressHUD * messageHUD;
+
+@property (assign, nonatomic) DGActivityIndicatorAnimationType indicatorAnimationType;
+@property (strong, nonatomic) UIColor * indicatorColor;
 @end
 
 @implementation YYHUD
@@ -23,6 +24,8 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         hud = [[[self class] alloc] init];
+        hud.indicatorAnimationType = DGActivityIndicatorAnimationTypeLineScalePulseOut;
+        hud.indicatorColor = [UIColor colorWithRed:255.0/255.0 green:225.0/255.0 blue:125.0/255.0 alpha:1.0];
     });
     return hud;
 }
@@ -53,6 +56,15 @@
     return keyWindow;
 }
 
++ (void)setIndicatorAnimationType:(DGActivityIndicatorAnimationType)type {
+    YYHUD.instance.indicatorAnimationType = type;
+}
+
++ (void)setIndicatorColor:(UIColor *)color {
+    YYHUD.instance.indicatorColor = color;
+}
+
+
 + (void)showActivityHUD {
     [self showActivityHUDToView:[self keyWindow]];
 }
@@ -69,12 +81,12 @@
         YYHUD.instance.activityHUD.removeFromSuperViewOnHide = YES;
         YYHUD.instance.activityHUD.mode = MBProgressHUDModeCustomView;
         
-        DGActivityIndicatorView *activityIndicatorView = [[DGActivityIndicatorView alloc] initWithType:DGActivityIndicatorAnimationTypeLineScalePulseOut];
+        DGActivityIndicatorView *activityIndicatorView = [[DGActivityIndicatorView alloc] initWithType: YYHUD.instance.indicatorAnimationType];
         activityIndicatorView.size = 50.0f;
         [activityIndicatorView startAnimating];
         
         YYHUD.instance.activityHUD.customView = activityIndicatorView;
-        YYHUD.instance.activityHUD.customView.tintColor = [UIColor colorWithRed:255.0/255.0 green:225.0/255.0 blue:125.0/255.0 alpha:1.0];
+        YYHUD.instance.activityHUD.customView.tintColor = YYHUD.instance.indicatorColor;
         YYHUD.instance.activityHUD.bezelView.style = MBProgressHUDBackgroundStyleSolidColor; // 背景色设置为纯色
         YYHUD.instance.activityHUD.bezelView.color = [UIColor colorWithWhite:0.0 alpha:0.8];
         [YYHUD.instance.activityHUD showAnimated:YES];
