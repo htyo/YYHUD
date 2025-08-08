@@ -228,7 +228,7 @@
 		5975FBD31EE21B2E5D7674E7F187A752 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		59B5E56479A5F542EC2C7B02B60478B6 /* Pods-YYHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5AE3AF0DB278D4A56FC67C63CFDDDD0A /* DGActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB337FF25C18215C57E6A42135B1BD6 /* DGActivityIndicatorBallRotateAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallRotateAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallRotateAnimation.m; sourceTree = "<group>"; };
 		6019F5BBF13A80FBFC70ECD1189AAA92 /* Pods-YYHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YYHUD_Tests.modulemap"; sourceTree = "<group>"; };
 		621F0243B6C53C8EA0C93DEFE4D4E903 /* DGActivityIndicatorBallRotateAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallRotateAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallRotateAnimation.h; sourceTree = "<group>"; };
@@ -253,7 +253,7 @@
 		8885455ABDA8A23FA7F5161785552EF3 /* DGActivityIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DGActivityIndicatorView.release.xcconfig; sourceTree = "<group>"; };
 		89A4F239DC8C87AEAE13C97AB9939566 /* Pods-YYHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A9DA2196C7E4400135C9ABC3CEEC63E /* DGActivityIndicatorBallScaleRippleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleRippleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleAnimation.h; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC6F8C28A7DB672A9F2CB71A5787999 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		8BD836ED3487DA586816181CA1C32F97 /* DGActivityIndicatorBallClipRotateAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotateAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateAnimation.h; sourceTree = "<group>"; };
 		8EFDFA9BE9AF760557911B8729248E11 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
@@ -268,13 +268,13 @@
 		9947C756A026A6DA2FF0EA4F29F2DDF4 /* Pods-YYHUD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYHUD_Tests-Info.plist"; sourceTree = "<group>"; };
 		9B4ED108CB88CC46D07679D8D3B0164E /* DGActivityIndicatorBallScaleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleAnimation.m; sourceTree = "<group>"; };
 		9D7962A2D0094BCEA23FA663D2D84877 /* DGActivityIndicatorBallScaleMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleMultipleAnimation.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0D0A4DA8B34C5879680045601B69F57 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A13663F87B948830EF46A87307CC11DB /* DGActivityIndicatorLineScalePartyAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePartyAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePartyAnimation.m; sourceTree = "<group>"; };
 		A2FF8F7E31EDDE8765820DDDAC8B18C1 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		A300BE64ECE0C224BFB43460A4571A2F /* YYHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYHUD.modulemap; sourceTree = "<group>"; };
 		A36CE14B0E4EA338933F8CACE24A8DC9 /* DGActivityIndicatorTripleRingsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTripleRingsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTripleRingsAnimation.m; sourceTree = "<group>"; };
-		A3E01D397435FBF2CA7869BA4BDC47DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A3E01D397435FBF2CA7869BA4BDC47DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A438A17B107242743E0D46ACE52724B3 /* YYHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYHUD-prefix.pch"; sourceTree = "<group>"; };
 		A4EC5BC02F03C3E909F227C5ACEFD54D /* DGActivityIndicatorRotatingSandglassAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingSandglassAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSandglassAnimation.m; sourceTree = "<group>"; };
 		A6146ECB19644C16DA2500FA8DB9E160 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -285,13 +285,13 @@
 		AE1E67AB006C64F404A10B6811FBE6B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		AF3A9E8010F1463D14FFDB5DF90A99DB /* DGActivityIndicatorBallPulseSyncAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallPulseSyncAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseSyncAnimation.h; sourceTree = "<group>"; };
 		AF6A9764F944A7997DC217A2E19C0E69 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		B04DFFFBD5EB330B51E09572B65F6A30 /* Pods_YYHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04DFFFBD5EB330B51E09572B65F6A30 /* Pods-YYHUD_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YYHUD_Example"; path = Pods_YYHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23E0A6B09D2D564994B60511D0FC7A8 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		B2A4F302B7550CE39230E97DAE175179 /* DGActivityIndicatorDoubleBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorDoubleBounceAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorDoubleBounceAnimation.m; sourceTree = "<group>"; };
 		B3DDB1B11434C322A651CA43FCF9C85D /* Pods-YYHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YYHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B7D54FB4F16BC57118CDDE04A27422C1 /* DGActivityIndicatorLineScalePulseOutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePulseOutAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutAnimation.m; sourceTree = "<group>"; };
 		BAC0B09F7E71688FC24FC2C7D552E809 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTriangleSkewSpinAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriangleSkewSpinAnimation.m; sourceTree = "<group>"; };
-		BC39C7DE03D918CDD6C21AEE6950197A /* DGActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC39C7DE03D918CDD6C21AEE6950197A /* DGActivityIndicatorView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DGActivityIndicatorView; path = DGActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE04A3C5A81819D748B4AB9FC582A1E6 /* Pods-YYHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BE07CFB8C24DA84A4AD629EBF6DBC5D8 /* Pods-YYHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5DE61D7F8EC7F2C5D665EC0814E499 /* Pods-YYHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YYHUD_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -319,14 +319,14 @@
 		E9F274DB3EB9696EFEE7AB6B31FF390F /* Pods-YYHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYHUD_Tests-dummy.m"; sourceTree = "<group>"; };
 		EC59A6B79534DF1E5EC178B84A81E0A0 /* YYHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYHUD.debug.xcconfig; sourceTree = "<group>"; };
 		EE24B2A680AD1B247521852E41A2156A /* DGActivityIndicatorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorAnimation.m; sourceTree = "<group>"; };
-		EEBDABD40A561548F0BBAF0902473A96 /* Pods_YYHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBDABD40A561548F0BBAF0902473A96 /* Pods-YYHUD_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YYHUD_Tests"; path = Pods_YYHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EFF06FCBB376662ED0CDA8A3106678 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleRippleMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleMultipleAnimation.h; sourceTree = "<group>"; };
-		F6820E28B0AC507AA092C0A3AA6977D3 /* YYHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YYHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F91284BB8B020AFCFA595BA29094339F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F6820E28B0AC507AA092C0A3AA6977D3 /* YYHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YYHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F91284BB8B020AFCFA595BA29094339F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F9C79562D62F43841AB41A7D4B666FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		FAB1AF71BD410F08A5932417D6B5B0C4 /* DGActivityIndicatorBallBeatAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallBeatAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallBeatAnimation.m; sourceTree = "<group>"; };
 		FCC3B3D1563DC2628FAA4348CA177094 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		FEA5CBF637A91C9B1A072C65B38A3EC8 /* YYHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA5CBF637A91C9B1A072C65B38A3EC8 /* YYHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYHUD; path = YYHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -478,6 +478,7 @@
 				0431ADB98136F2796867B6782817A737 /* DGActivityIndicatorView.m */,
 				8EF894F2C3C5AD4C48FE1BB09DCCC0C1 /* Support Files */,
 			);
+			name = DGActivityIndicatorView;
 			path = DGActivityIndicatorView;
 			sourceTree = "<group>";
 		};
@@ -578,12 +579,12 @@
 		72B34FF8348FF7D84C3D51D4C768240A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC39C7DE03D918CDD6C21AEE6950197A /* DGActivityIndicatorView.framework */,
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
-				B04DFFFBD5EB330B51E09572B65F6A30 /* Pods_YYHUD_Example.framework */,
-				EEBDABD40A561548F0BBAF0902473A96 /* Pods_YYHUD_Tests.framework */,
-				FEA5CBF637A91C9B1A072C65B38A3EC8 /* YYHUD.framework */,
+				BC39C7DE03D918CDD6C21AEE6950197A /* DGActivityIndicatorView */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */,
+				B04DFFFBD5EB330B51E09572B65F6A30 /* Pods-YYHUD_Example */,
+				EEBDABD40A561548F0BBAF0902473A96 /* Pods-YYHUD_Tests */,
+				FEA5CBF637A91C9B1A072C65B38A3EC8 /* YYHUD */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -633,6 +634,7 @@
 				8FD42E88DE9B4DA49B0311F5284C5336 /* Support Files */,
 				93C8C4A00AF7B506D5F786F12AA4B502 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -683,6 +685,7 @@
 				12CC0354DDA89778DC742E686D921C57 /* MBProgressHUD.m */,
 				418D9F50A4943D108E6B8367ED9A8E53 /* Support Files */,
 			);
+			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -817,7 +820,7 @@
 			);
 			name = DGActivityIndicatorView;
 			productName = DGActivityIndicatorView;
-			productReference = BC39C7DE03D918CDD6C21AEE6950197A /* DGActivityIndicatorView.framework */;
+			productReference = BC39C7DE03D918CDD6C21AEE6950197A /* DGActivityIndicatorView */;
 			productType = "com.apple.product-type.framework";
 		};
 		5A61FE408D0DF35F1687C3A6CE0CF933 /* Pods-YYHUD_Tests */ = {
@@ -837,7 +840,7 @@
 			);
 			name = "Pods-YYHUD_Tests";
 			productName = Pods_YYHUD_Tests;
-			productReference = EEBDABD40A561548F0BBAF0902473A96 /* Pods_YYHUD_Tests.framework */;
+			productReference = EEBDABD40A561548F0BBAF0902473A96 /* Pods-YYHUD_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		6CB1EC2D400B604E92AF949E1C8498D1 /* Pods-YYHUD_Example */ = {
@@ -858,7 +861,7 @@
 			);
 			name = "Pods-YYHUD_Example";
 			productName = Pods_YYHUD_Example;
-			productReference = B04DFFFBD5EB330B51E09572B65F6A30 /* Pods_YYHUD_Example.framework */;
+			productReference = B04DFFFBD5EB330B51E09572B65F6A30 /* Pods-YYHUD_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
@@ -876,7 +879,7 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */;
 			productType = "com.apple.product-type.framework";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
@@ -894,7 +897,7 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
 			productType = "com.apple.product-type.framework";
 		};
 		C461415C2DD0405C7187DA2D03A73455 /* YYHUD */ = {
@@ -914,7 +917,7 @@
 			);
 			name = YYHUD;
 			productName = YYHUD;
-			productReference = FEA5CBF637A91C9B1A072C65B38A3EC8 /* YYHUD.framework */;
+			productReference = FEA5CBF637A91C9B1A072C65B38A3EC8 /* YYHUD */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -935,6 +938,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 72B34FF8348FF7D84C3D51D4C768240A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1189,7 +1194,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-YYHUD_Example/Pods-YYHUD_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YYHUD_Example/Pods-YYHUD_Example.modulemap";
@@ -1313,6 +1318,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1330,7 +1336,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1459,7 +1466,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-YYHUD_Tests/Pods-YYHUD_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YYHUD_Tests/Pods-YYHUD_Tests.modulemap";
@@ -1564,7 +1571,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-YYHUD_Tests/Pods-YYHUD_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YYHUD_Tests/Pods-YYHUD_Tests.modulemap";
@@ -1619,6 +1626,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1665,7 +1673,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-YYHUD_Example/Pods-YYHUD_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YYHUD_Example/Pods-YYHUD_Example.modulemap";

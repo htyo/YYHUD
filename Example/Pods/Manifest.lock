@@ -6,7 +6,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - MBProgressHUD (1.2.0)
-  - YYHUD (0.1.0):
+  - YYHUD (1.0.1):
     - DGActivityIndicatorView
     - MBProgressHUD
 
@@ -28,8 +28,8 @@ SPEC CHECKSUMS:
   DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  YYHUD: bd0277338deebc9206cb3dfe6befab887deba69c
+  YYHUD: e270ee23e378bf6db900e2ad352d7712294647e0
 
-PODFILE CHECKSUM: 9023387dde0e37447814438c067f4b91c682e3c6
+PODFILE CHECKSUM: 76b2af398d8f68d9718aec7709f31d4870e3935f
 
 COCOAPODS: 1.16.2
