@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'YYHUD'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
     s.summary = "A lightweight and customizable HUD view for iOS applications."
     
     
